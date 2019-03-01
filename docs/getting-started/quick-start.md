@@ -8,6 +8,11 @@ Finally, we'll wrap the quick start by showing you how to optimize your time by 
 
 ## Let's Get Going
 1. [Install the Alpha Drive CLI](/docs/cli/install)
+
+    ```
+    bash <(curl -o - https://raw.githubusercontent.com/Alpha-Drive/alpha-command/master/install.sh)
+    ```
+    
 2. [Authenticate the CLI](/docs/cli/authenticate)
 
     ```
