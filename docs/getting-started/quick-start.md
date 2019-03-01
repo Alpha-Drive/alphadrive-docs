@@ -88,8 +88,8 @@ Finally, we'll wrap the quick start by showing you how to optimize your time by 
 
 7. Running in Parallel
 
-    Being able to run multiple instances of the CARLA simulator in the cloud will greatly improve your productivity. This comes enabled by default. You can kick off as many 'alpha drive (profile)' commands as you like (just be careful as you will be charged for time of each server running). [More about running parallel simulations] (/docs/cloud/cloudai)
+    Being able to run multiple instances of the CARLA simulator in the cloud will greatly improve your productivity. This comes enabled by default. You can kick off as many 'alpha drive (profile)' commands as you like (just be careful as you will be charged for time of each server running). [More about running parallel simulations](/docs/cloud/parallel)
 
-    Our professional level provides more tools for developers to optimize their parallel development runs. [More about Cloud AI and Cloud Simulation] (/docs/cloud/cloudai)
+    Our professional level provides more tools for developers to optimize their parallel development runs. [More about Cloud AI and Cloud Simulation](/docs/cloud/cloudai)
 
 Questions, comments, concerns or copy edits? Email us at [support@alphadrive.ai](mailto:support@alphadrive.ai) 
