@@ -6,7 +6,7 @@ The Alpha Drive config file (alphadrive.yml) allows you to define profiles that 
 
 In order to create or update the alphadrive.yml file you can run the following command.
 
-    alpha setup
+    alpha init
 
 Setup will create a default profile or can create customized profiles based on your enviornment. 
 
