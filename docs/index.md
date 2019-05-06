@@ -2,7 +2,7 @@
 
 Alpha Drive provides toolsets for developers that make training, testing and validation in simulation in the cloud quick and easy. We're tackling common challenges such as scalability, scenario management, analytics and benchmarking. 
 
-[Click here](/docs/getting-started/overview) to take our quick start tutorial.
+[Take our quick start tutorial to get started](/docs/getting-started/overview).
 
 ## Need Help?
 
