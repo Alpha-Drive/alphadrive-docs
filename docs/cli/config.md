@@ -23,9 +23,9 @@ For example, our quick start uses the demo template:
 
 ## Profiles
 Options for customization of profiles include:
-*simulator
-*launch_command
-*map
+* simulator
+* launch_command
+* map
 
 ## Having trouble?
 Email us at [support@alphadrive.ai](mailto:support@alphadrive.ai) 
