@@ -100,8 +100,12 @@ Finally, we'll wrap the quick start by showing you how to optimize your time by 
     ls
     ```
 
-    You should see a \_out folder. If you navigate to that folder you will see a surprise inside. DATA. You can configure what data is needed and it will be outputted locally. 
-
+    You should see a \_out folder.  
+    
+    ```
+    cd _out
+    ```
+    If you navigate to that folder you will see a surprise inside. DATA. You can configure what data is needed and it will be outputted locally.
     Viewing the example_agent.py file you can see an example:
 
     ```
