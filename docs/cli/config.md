@@ -2,16 +2,30 @@
 
 The Alpha Drive config file (alphadrive.yml) allows you to define profiles that enable easy automation within the Alpha Drive command line environment. The config file follows standard YAML format. 
 
-## Setup alphadrive configuration for your work area
+## New Config
 
-In order to create or update the alphadrive.yml file you can run the following command.
+In order to create an alphadrive.yml file you can run the following command.
 
-    alpha init
+    alpha setup
 
-Setup will create a default profile or can create customized profiles based on your enviornment. 
+Setup will walk you through all of the elements needed to create a default profile.
+Profiles can be customized and additional profiles added.
 
-## Customizing
-Maps, etc. can be customized
+## Templates
+
+Templates exist of projects to get you started. The format to install a template is
+
+    alpha init (template name)
+
+For example, our quick start uses the demo template:
+
+    alpha init demo
+
+## Profiles
+Options for customization of profiles include:
+*simulator
+*launch_command
+*map
 
 ## Having trouble?
 Email us at [support@alphadrive.ai](mailto:support@alphadrive.ai) 
