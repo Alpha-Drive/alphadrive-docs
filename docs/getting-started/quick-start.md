@@ -49,7 +49,7 @@ Finally, we'll wrap the quick start by showing you how to optimize your time by 
 
     You will find a manual_control.py that will allow you to drive the car in simulation and an example_agent.py in the directory that is our attempt at a self driving agent. We hope yours will be much better.
 
-    You'll notice that there is another file in the directory called alphadrive.yml. You can read more about it in the [init] (/docs/cli/init) section, but let's take a peak under the hood:
+    You'll notice that there is another file in the directory called alphadrive.yml. You can read more about it in the [config] (/docs/cli/config) section, but let's take a peak under the hood:
 
     ```
     description: AlphaDrive Agent Configuration
