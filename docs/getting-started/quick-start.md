@@ -19,7 +19,19 @@ Finally, we'll wrap the quick start by showing you how to optimize your time by 
     alpha login
     ```
 
-3. [Enable visual diplay](/docs/display/visual) (Optional)
+3. [Enable visual diplay](/docs/display/visual) 
+    For a visual display of the could simulator, you will need a local X11 installation.
+    Warning: There are definite security risks involved in allowing network connections to X11 on any system. Future iterations of the service will not require X11.
+    
+    On OSX, install [XQartz](https://www.xquartz.org/)
+    ```
+    export DISPLAY=:0
+    defaults write org.macosforge.xquartz.X11 nolisten_tcp -int 0
+    ```
+    
+    On Linux, XQuartz is already installed
+    
+    Windows is not currently supported. 
 
 
 4. [Initialize the workspace](/docs/cli/init)
@@ -96,5 +108,8 @@ Finally, we'll wrap the quick start by showing you how to optimize your time by 
     Being able to run multiple instances of the CARLA simulator in the cloud will greatly improve your productivity. This comes enabled by default. You can kick off as many 'alpha drive (profile)' commands as you like (just be careful as you will be charged for time of each server running). [More about running parallel simulations](/docs/cloud/parallel)
 
     Our professional level provides more tools for developers to optimize their parallel development runs. [More about Cloud AI and Cloud Simulation](/docs/cloud/cloudai)
+    
+## Troubleshooting
+Be sure that there are no spaces in your path.
 
 Questions, comments, concerns or copy edits? Email us at [support@alphadrive.ai](mailto:support@alphadrive.ai) 
