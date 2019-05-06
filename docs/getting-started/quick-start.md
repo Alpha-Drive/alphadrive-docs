@@ -24,6 +24,9 @@ Finally, we'll wrap the quick start by showing you how to optimize your time by 
     Warning: There are definite security risks involved in allowing network connections to X11 on any system. Future iterations of the service will not require X11.
     
     On OSX, install [XQartz](https://www.xquartz.org/)
+    Launch XQuartz
+    In terminal, set XQuartz as the display. 
+    
     ```
     export DISPLAY=:0
     defaults write org.macosforge.xquartz.X11 nolisten_tcp -int 0
@@ -31,7 +34,9 @@ Finally, we'll wrap the quick start by showing you how to optimize your time by 
     
     On Linux, XQuartz is already installed
     
-    Windows is not currently supported. 
+    Windows is not currently supported, but we are working on cross support. 
+    
+
 
 
 4. [Initialize the workspace](/docs/cli/init)
