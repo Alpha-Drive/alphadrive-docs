@@ -5,7 +5,6 @@ Alpha Drive provides developers with a simulation as a service platform.
 
 ## Getting Started
 * [Quick Start](/docs/getting-started/quick-start)
-* [Tutorial](/docs/getting-started/tutorial)
 
 ## CLI
 * [Install CLI](/docs/cli/install)
