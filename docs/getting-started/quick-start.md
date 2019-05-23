@@ -40,7 +40,7 @@ Finally, we'll wrap the quick start by showing you how to optimize your time by 
     ls
     ```
 
-    You will find a manual_control.py that will allow you to drive the car in simulation and an example_agent.py in the directory that is our attempt at a self driving agent. We hope yours will be much better.
+    You will find a manual_control.py that will allow you to drive the car in simulation and an example_agent.py in the directory that is our attempt at a self driving agent. It really just sets up some agents in the world and returns back the data. We know your agents will be better. 
 
     You'll notice that there is another file in the directory called alphadrive.yml. You can read more about it in the [config](/docs/cli/config) section, but let's take a peak under the hood:
 
@@ -68,17 +68,19 @@ Finally, we'll wrap the quick start by showing you how to optimize your time by 
     alpha drive manual
     ```
 
-    To explain, your manual agent is running locally on you box and connecting to a CARLA instance up in the cloud. It's like magic - but don't be fooled - it was a lot of work to make it happen. 
+    To explain, your manual agent is running locally on you box and connecting to a streaming CARLA instance up in the cloud. It's like magic - but don't be fooled - it was a lot of work to make it happen. 
 
-    ** Of note: while this works on OSX and Linux, the performance is much better on a GPU enabled machine (i.e. linux, which can achieve 60fps on the client side)
+    ** Of note: the performance is much better on a GPU enabled machine and can get upwards of 60fps
 
-    Now, to put the peddle to the metal. How does an agent perform without you at the wheel?
+    Now, to put the peddle to the metal. How does an agent perform without you at the wheel? We mentioned that we've included a sample agent example_agent.py. 
 
     ``` 
     alpha drive
     ```
 
     You'll notice that there wasn't a display enabled here. We are able to run the agent in headless mode which means that it can run much faster. 
+    
+
 
 6. See the results
 
