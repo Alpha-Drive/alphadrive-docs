@@ -1,8 +1,8 @@
 # Quick Start
 
-In this quick start we'll first be getting a CARLA instance up and running in the cloud with a local agent that can manually drive through the simulator using your keyboard controls. 
+In this quick start we'll get a CARLA instance up and running in the cloud streaming to a local agent that can manually drive through the simulator using your keyboard controls. 
 
-Once we've successfully manually driven the car, we'll move on to testing a smarter self driving agent running in the cloud. 
+Once we've successfully manually driven the car, we'll move on to testing a smarter (but not too smart, we leave that to you) self driving agent. 
 
 Finally, we'll wrap the quick start by showing you how to optimize your time by running the agent headless and in parallel. 
 
@@ -20,23 +20,11 @@ Finally, we'll wrap the quick start by showing you how to optimize your time by 
     ```
 
 3. [Enable visual diplay](/docs/display/visual) 
-    For a visual display of the could simulator, you will need a local X11 installation.
-    Warning: There are definite security risks involved in allowing network connections to X11 on any system. Future iterations of the service will not require X11.
+    Our current visualization relies on X11 and is available on Linux out of the box. 
     
-    On OSX, install [XQartz](https://www.xquartz.org/)
-    Launch XQuartz
-    In terminal, set XQuartz as the display. 
+    Mac is not officially supported, but if you need help, contact us and we can walk you through it. Windows does not support X11. 
     
-    ```
-    export DISPLAY=:0
-    defaults write org.macosforge.xquartz.X11 nolisten_tcp -int 0
-    ```
-    
-    On Linux, XQuartz is already installed
-    
-    Windows is not currently supported, but we are working on cross support. 
-    
-
+    Our next release will have visualizations back in the browser (as our previous release did), but with added support for visuals from any/multiple sensors.
 
 
 4. [Initialize the workspace](/docs/cli/init)
