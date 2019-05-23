@@ -8,17 +8,8 @@ The best example is the manual control of the simulator in the cloud.
 
 For a visual display of the could simulator, you will need a local X11 installation. 
 
-* Warning: There are definite security risks involved in allowing network connections to X11 on any system. Future iterations of the service will not require X11.
+Our current visualization relies on X11 and is available on Linux out of the box. 
 
-## Configuration on Linux
+Mac is not officially supported, but if you need help, contact us and we can walk you through it. Windows does not support X11.
 
-X11 is installed on linux by default
-
-## Configuration on OSX
-
-Install XQuartz
-
-```
-export DISPLAY=:0
-defaults write org.macosforge.xquartz.X11 nolisten_tcp -int 0
-```
+Our next release will have visualizations back in the browser (as our previous release did), but with added support for visuals from any/multiple sensors.
